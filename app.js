@@ -11,15 +11,7 @@ import nemo from "./apps/nemo.js";
 
 const io = new Server(server, {
   cors: {
-    origin: [
-      "http://192.168.150.72:7000",
-      "http://192.168.150.72:5000",
-      "http://192.168.150.72",
-      "http://0.0.0.0:8000",
-      "http://192.168.155.108",
-      "http://web.urecel.com",
-      "http://localhost",
-    ],
+    origin: ["http://localhost", "http://192.168.40.185"],
     // origin: "*",
   },
 });
